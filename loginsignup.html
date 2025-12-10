@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Signup</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0%;
+      font-family: "Lato Bold", sans-serif;
+    }
+    body {
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      background-color: rgb(72, 72, 177);
+    }
+    .loginsignup {
+      text-align: center;
+      display: grid;
+      place-items: center;
+      margin: 5px 0;
+      height: 100vh;
+      background-color: white;
+      height: 550px;
+      border-radius: 20px;
+      width: 400px;
+    }
+    .loginsignup button {
+      display: inline-block;
+      width: 350px;
+      height: 30px;
+      background-color: #0165e1;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .loginsignup a {
+      color: #0165e1;
+    }
+    input {
+      width: 350px;
+      height: 25px;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .signup button {
+      display: inline-block;
+      width: 350px;
+      height: 30px;
+      background-color: #0165e1;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn {
+      gap: 2px;
+      display: flex;
+    }
+
+    .facebook {
+      width: 350px;
+      height: 25px;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .google {
+      width: 350px;
+      height: 25px;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <body>
+    <div class="loginsignup">
+      <h1 id="logi">Login</h1>
+
+      <div class="login">
+        <input type="text" placeholder="Username" /><br />
+        <input type="password" placeholder="Password" /><br />
+        <p>Forgot Password?</p>
+        <br />
+        <button onclick="login()">Login</button>
+      </div>
+      <div class="signup" style="display: none">
+        <input type="email" placeholder="E-Mail" /><br />
+        <input type="password" placeholder="Create Password" /><br />
+        <input type="password" placeholder="Confirm Password" /><br />
+        <button>Sign Up</button>
+      </div>
+
+      <p id="toggle-text">
+        Don't have an account?
+        <a id="toggle-link" onclick="toggle()">Sign-up</a>
+      </p>
+
+      <div class="app">
+        <h6>OR</h6>
+        <p class="facebook">
+          <i class="bx bxl-facebook" style="color: #09bbff"></i> Login with
+          Facebook
+        </p>
+        <p class="google">
+          <i class="bx bxl-google" style="color: #ff0909"></i> Login with Google
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function login() {
+        document.getElementById("logi").innerText = "Login";
+        document.querySelector(".signup").style.display = "none";
+        document.querySelector(".login").style.display = "block";
+
+        document.getElementById(
+          "toggle-text"
+        ).innerHTML = `Don't have an account? <a id="toggle-link" href="#" onclick="signup()">Sign-up</a>`;
+      }
+
+      function signup() {
+        document.getElementById("logi").innerText = "Sign-up";
+        document.querySelector(".login").style.display = "none";
+        document.querySelector(".signup").style.display = "block";
+
+        document.getElementById(
+          "toggle-text"
+        ).innerHTML = `Already have an account? <a id="toggle-link" href="#" onclick="login()">Login</a>`;
+      }
+    </script>
+  </body>
+</html>

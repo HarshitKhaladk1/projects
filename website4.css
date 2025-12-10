@@ -1,0 +1,410 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Lato Bold", sans-serif;
+
+
+}
+
+.logo-sample img {
+  width: 150px;
+  height: auto;
+}
+
+.whatsappp {
+  border: 1px solid gray;
+  color: gray;
+  width: 150px;
+  display: flex;
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 830px;
+  font-style: italic;
+  font-size: 11px;
+  font-weight: 600;
+  left: 85%;
+  color: #18498e;
+  cursor: pointer;
+
+}
+
+.menu {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+nav {
+  text-transform: uppercase;
+
+}
+
+.MENULAST {
+  gap: none;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.MENULAST .whatsappp {
+  font-size: 14px;
+  display: flex;
+}
+
+.menu-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-icons img {
+  width: 30px;
+  height: auto;
+}
+
+.hero-banner img {
+  width: 150%;
+  height: auto;
+}
+
+.secondnav {
+  display: flex;
+}
+
+.firstimg {
+  margin-left: 170px;
+}
+
+.secondimg {
+  margin-left: 100px;
+}
+
+.lastimg {
+  margin-left: 250px;
+  align-items: end;
+}
+
+.pae2img {
+  display: flex;
+  height: 500px;
+
+}
+
+.pae2img .img21 p {
+
+  width: 100px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+
+}
+
+.pae2img .img21 .img211 {
+  position: absolute;
+  color: white;
+  bottom: -208px;
+  justify-content: space-around;
+  margin-left: 20px;
+  left: 16px;
+  transform: scaleY(1.5);
+}
+
+.pae2img img {
+  height: 300px;
+}
+
+.page2iimg {
+  display: flex;
+  height: 360px;
+}
+
+.pae2img .paey {
+  width: 500px;
+  display: flex;
+}
+
+
+
+.page3 {
+  font-family: "Lato Light", sans-serif;
+  text-align: center;
+  gap: none;
+}
+
+.page3 .heading {
+  font-size: 24px;
+}
+
+.page3 .heading H1 {
+  font-size: 60px;
+}
+
+.imgarena,
+.imgnexa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 150px;
+}
+
+.arena,
+.nexa {
+  font-size: 30px;
+}
+
+
+.arena img,
+.nexa img {
+  height: 150px;
+}
+
+
+.hi {
+  background: url('https://az-ci-afde-prd-arena-01-e7fmh3dxacbgeyh5.z01.azurefd.net/-/media/images/maruti/marutisuzuki/modules/basic-module/home/our-value-bg') no-repeat center center;
+  font-family: Arial, sans-serif;
+  height: 550px;
+
+}
+
+.hi .heading h1 {
+  font-size: 68px;
+}
+
+.hi .heading h2 {
+  font-size: 25px;
+}
+
+.centerpart {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+
+.centerpart img {
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+
+.bottom {
+  padding: 20px 0;
+}
+
+.button-red {
+  background-color: #d61f26;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+.hi {
+  text-align: center;
+  padding: 40px;
+}
+
+
+.count {
+  font-family: "Lato Light", sans-serif;
+  padding: 20px;
+  display: flex;
+  height: 350px;
+  background: url('https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/modules/basic-module/home/counter-bg.webp') no-repeat;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count img {
+  height: 150px;
+}
+
+.count h1 {
+  font-size: 68px;
+}
+
+.count p {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+
+.countbuttom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.countbuttom a {
+  text-decoration: none;
+}
+
+.countbuttom p {
+  font-family: "Lato Light", sans-serif;
+
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #d61f26;
+}
+
+footer {
+  width: 100%;
+  background-color: #2c2c2c;
+  justify-content: space-around;
+  color: #fff;
+  font-family: "Lato Bold", sans-serif;
+
+}
+
+.footerheading {
+  padding-left: 15px;
+  margin-left: auto;
+  height: 410px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.first {
+  margin-left: 20px;
+}
+
+.first p {
+  color: black;
+  width: 200px;
+  height: 20px;
+  padding: 8px 6px 8px 10px;
+
+  align-items: center;
+  font-family: "Lato Bold", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: white;
+}
+
+.fourth p,
+.second p,
+.third p {
+  color: white;
+  font-family: "Lato Bold", sans-serif;
+}
+
+.fourth p {
+  font-size: 16px;
+  display: flex;
+  width: 300px;
+}
+
+.fifth {
+  font-size: 20px;
+}
+
+.lastline {
+  display: flex;
+  align-items: center;
+  background-color: black;
+
+}
+
+.bottom {
+  font-size: 13px;
+}
+
+.last,
+.menu {
+
+  justify-content: space-between;
+  color: white;
+
+}
+
+.fifth {
+  margin-right: 10px;
+}
+
+.last {
+
+  justify-content: left;
+}
+
+.lastline .menu {
+  margin-left: 150px;
+}
+
+.lastline .menu a {
+  gap: 30px;
+
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+
+}
+
+.fifth {
+  text-align: end;
+}
+
+.icon {
+  align-items: end;
+  text-align: end;
+}
+
+
+.scan {
+  gap: 10px;
+  justify-content: end;
+  display: flex;
+}
+
+.scan img {
+  height: 15px;
+}
+
+
+.imgarena .centered,
+.imgnexa .centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+
+.imgarena .container,
+.imgnexa .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
