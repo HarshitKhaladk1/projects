@@ -1,0 +1,147 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .logo img {
+    height: 150px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+
+.end {
+    margin-right: 30px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .logo img {
+    height: 150px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-right: 2%;
+}
+
+
+.page1 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Axiom_4_outsidehangar_IMG_3412_desktop_f4cf1ef34c.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.page1 .texttwo {
+    justify-content: end;
+}
+
+.page2 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/home_mars2026_d_59b1a6ea7a.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.page3 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_c051df793a.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.page4 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Transporter_14_Streak_1042_Desktop_8d8b07e625.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.page5 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_9_Website_Desktop_4_f1db4d08ec.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.page6 {
+    background: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg') no-repeat center center/cover;
+    height: 900px;
+    color: white;
+}
+
+.hero-section {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    text-align: left;
+    padding: 50px;
+}
+
+.content {
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+}
+
+.content p {
+    font-size: 2em;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
